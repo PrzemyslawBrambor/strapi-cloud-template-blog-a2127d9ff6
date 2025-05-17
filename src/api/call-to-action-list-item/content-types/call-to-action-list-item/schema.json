@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "call_to_action_list_items",
+  "info": {
+    "singularName": "call-to-action-list-item",
+    "pluralName": "call-to-action-list-items",
+    "displayName": "Call To Action List Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "value": {
+      "type": "text"
+    }
+  }
+}
