@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "call_to_actions",
+  "info": {
+    "singularName": "call-to-action",
+    "pluralName": "call-to-actions",
+    "displayName": "Call To Action",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "listItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::call-to-action-list-item.call-to-action-list-item"
+    }
+  }
+}
