@@ -38,6 +38,17 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::call-to-action.call-to-action"
+    },
+    "suggestedImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "private": true
     }
   }
 }
